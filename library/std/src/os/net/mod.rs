@@ -5,7 +5,7 @@
 #[cfg(not(all(
     doc,
     any(
-        target_os = "zkvm",
+        target_os = "sp1-zkvm",
         all(target_arch = "wasm32", not(target_os = "wasi")),
         all(target_vendor = "fortanix", target_env = "sgx")
     )

@@ -99,7 +99,7 @@ const EXTRA_CHECK_CFGS: &[(Option<Mode>, &str, Option<&[&'static str]>)] = &[
     (Some(Mode::Std), "target_env", Some(&["libnx"])),
     // (Some(Mode::Std), "target_os", Some(&[])),
     // #[cfg(bootstrap)] zkvm
-    (Some(Mode::Std), "target_os", Some(&["zkvm"])),
+    (Some(Mode::Std), "target_os", Some(&["sp1-zkvm"])),
     // #[cfg(bootstrap)] succinct
     (Some(Mode::Std), "target_vendor", Some(&["succinct"])),
     (Some(Mode::Std), "target_arch", Some(&["asmjs", "spirv", "nvptx", "xtensa"])),
